@@ -39,3 +39,12 @@
 2025-08-13T21:15:07.337+01:00  INFO 46260 --- [ebank-backend] [main] n.a.e.services.BankAccountServiceImpl    : savingBankAccount id: 38bb06a9-d418-4d66-add2-f819f583f8f2 by :2
 2025-08-13T21:15:07.356+01:00  INFO 46260 --- [ebank-backend] [main] n.a.e.services.BankAccountServiceImpl    : currentBankAccount id: 892a8f93-ba52-4a5a-8bcd-82e5b0e94504 by: 3
 2025-08-13T21:15:07.369+01:00  INFO 46260 --- [ebank-backend] [main] n.a.e.services.BankAccountServiceImpl    : savingBankAccount id: de56a17e-3061-4fa1-b353-7dc0c8e68652 by :3
+2025-08-13T21:15:16.431+01:00  INFO 46260 --- [ebank-backend] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-13T21:15:16.432+01:00  INFO 46260 --- [ebank-backend] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-13T21:15:16.434+01:00  INFO 46260 --- [ebank-backend] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-13T21:15:17.503+01:00  INFO 46260 --- [ebank-backend] [http-nio-8083-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 534 ms
+2025-08-13T21:22:58.470+01:00  INFO 46260 --- [ebank-backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-13T21:22:58.486+01:00  INFO 46260 --- [ebank-backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-13T21:22:58.495+01:00  INFO 46260 --- [ebank-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-13T21:22:58.496+01:00  INFO 46260 --- [ebank-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-13T21:22:58.506+01:00  INFO 46260 --- [ebank-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
